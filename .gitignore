@@ -1,0 +1,9 @@
+# Dependencies
+node_modules
+
+# IDE files
+.vscode
+.idea
+
+# Yarn error logs
+yarn-error.log
