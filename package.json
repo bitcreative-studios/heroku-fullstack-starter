@@ -5,14 +5,20 @@
   "author": "George Bockari <bitwhys@gmail.com>",
   "license": "MIT",
   "repository": "git@github.com:bitwhys/heroku-fullstack-starter.git",
+  "scripts": {
+    "start": "node server"
+  },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.0",
+    "@types/express": "4.17.1",
     "eslint": "^6.6.0",
-    "express": "^4.17.1",
     "jest": "^24.9.0",
-    "password-generator": "^2.2.3",
     "prettier": "^1.18.2",
     "stmux": "^1.7.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "password-generator": "^2.2.3"
   }
 }
