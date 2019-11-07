@@ -1,7 +1,7 @@
-const path = require("path")
-const express = require("express")
-const morgan = require("morgan")
-const generatePassword = require("password-generator")
+import path from "path"
+import express from "express"
+import morgan from "morgan"
+import generatePassword from "password-generator"
 
 const app = express()
 
