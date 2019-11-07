@@ -8,7 +8,7 @@
   "scripts": {
     "build:server": "yarn clean && babel -d dist server -s",
     "clean": "rimraf dist",
-    "heroku_postbuild": "yarn build:server",
+    "heroku-postbuild": "yarn build:server",
     "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100 dist",
     "start:ui": "cd client && yarn start",
     "start:server": "node server",
