@@ -19,10 +19,7 @@ app.get("/api/passwords", (req, res) => {
   // Return them as json
   res.json(passwords)
 
-  console.log(
-    "%c --- DEBUG INFO: [/api/passwords] ---",
-    "font-weight: bold; color: purple"
-  )
+  console.log("--- DEBUG INFO: [/api/passwords] ---")
   console.log(`Sent ${count} passwords`)
 })
 
